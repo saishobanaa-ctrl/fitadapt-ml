@@ -1,0 +1,21 @@
+# FitAdapt ML — Backend Dependencies
+# Compatible with Python 3.12, 3.13, 3.14
+
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+sqlalchemy==2.0.36
+pydantic==2.10.0
+
+# ML stack — no-binary versions avoided; install latest wheels
+scikit-learn
+joblib
+numpy
+pandas
+
+# Web
+python-multipart==0.0.12
+python-dotenv==1.0.1
+
+# Database — optional (app works without PostgreSQL)
+# Uncomment if you have PostgreSQL installed:
+# psycopg2-binary
